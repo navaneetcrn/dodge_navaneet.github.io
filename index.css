@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    margin: 0 2%;
+    /* position: fixed;
+    top: 0; */
+}
+
+.down {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.logo1 img {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.cart {
+    margin-top: 20px;
+    font-size: 25px;
+    color: grey;
+}
+
+.hammer {
+    color: grey;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    /* position: fixed;
+    top: 0; */
+
+}
+
+.locationicon {
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.nav1 {
+    margin-top: 5px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.l {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+a {
+
+    margin-top: 15px;
+    color: aliceblue;
+    text-decoration: none
+}
+
+a:hover {
+
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.s1 h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* -========================================================= */
+.s1 {
+
+    position: relative;
+}
+
+.s2 {
+    position: absolute;
+    top: 40px;
+    color: aliceblue;
+    width: 100%;
+
+}
+
+.s2 h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wholedivsec1 {
+    position: relative;
+    margin: 0 2%;
+}
+
+.s3 {
+    position: absolute;
+    top: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.s3 button {
+    background-color: #D50000;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 50px;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.s3 button:hover {
+    background-color: #fe0202;
+}
+
+.arrow {
+    color: aliceblue;
+    font-size: 20px;
+    position: relative;
+    top: 6px;
+    left: 10px;
+
+}
+
+.wdivsecp p {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+    background-color: #161616;
+}
+
+.dodgeperformancevechicle h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.wholecarsdiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wholecarsdiv P {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wholecarsdiv img:hover {
+    filter: drop-shadow(-4px -11px 15px rgba(125, 118, 118, 1));
+    background-color: rgba(243, 244, 245, 1);
+    width: auto;
+    cursor: pointer;
+    height: 200px;
+}
+
+.sec2div {
+    margin-top: 5%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sec2paradiv {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    backdrop-filter: blur(8px) saturate(70%);
+    -webkit-backdrop-filter: blur(8px) saturate(70%);
+    background-color: rgba(0, 0, 0, 0.64);
+    border: 0px solid rgba(209, 213, 219, 0.3);
+    padding: 4%;
+}
+
+.boxsecpara P {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.boxsecpara button {
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #D50000;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.boxsecpara button:hover {
+    background-color: #fe0202;
+}
+
+.sec3 {
+    margin-top: 5%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sec3divp {
+    position: absolute;
+    top: 50px;
+    color: aliceblue;
+    font-size: 25px;
+    backdrop-filter: blur(8px) saturate(70%);
+    -webkit-backdrop-filter: blur(8px) saturate(70%);
+    background-color: rgba(0, 0, 0, 0.64);
+    border: 0px solid rgba(209, 213, 219, 0.3);
+    right: 50px;
+    width: 30%;
+    padding: 30px;
+}
+
+.sec3divp h1 {
+
+    font-size: 30px;
+}
+
+.sec3divp p {
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.buttondiv {
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.buttondiv .b1 {
+    padding: 10px;
+    position: relative;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #D50000;
+    color: aliceblue;
+    border: none;
+}
+
+.buttondiv .b1:hover {
+    background-color: #fe0202;
+}
+
+.buttondiv .b2 {
+    padding: 10px;
+    position: relative;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+}
+
+.arrowsec3btn1,
+.arrowsec3btn2 {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    left: 5px;
+
+}
+
+.hotshirtimg {
+    margin-top: 40px;
+}
+.dodgelifepara{
+    width: 65%;
+}
+.dodgelifepara h1 {
+    color: aliceblue;
+}
+
+.dodgelifepara p {
+    color: aliceblue;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.sec4{
+    display: flex;
+    margin: 5% 30% 0;
+    justify-content: space-between;
+}
+.dodgelifediv{
+    margin-top: 40px;
+}
+.dodgelifebtndiv{
+    margin-top: 20px;
+}
+.dodgelifebtndiv .b3,.b4{
+    padding: 10px;
+    background-color: #D50000;
+    color: aliceblue;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+.dodgelifebtndiv .b3:hover{
+    background-color: #fe0202;
+} 
+.dodgelifebtndiv .b4:hover{
+    background-color: #fe0202;
+}
+.dodgelifebtndiv{
+    display: flex;
+    gap: 50px;
+}
+.sec5{
+    position: relative;
+    margin: 5% 2% 0;
+}
+.sec5para{
+    margin-top: 5%;
+}
+.sec5contentdiv{
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    width: 30%;
+    padding: 50px;
+    color: aliceblue;
+    backdrop-filter: blur(13px) saturate(161%);
+    -webkit-backdrop-filter: blur(13px) saturate(161%);
+    background-color: rgba(0, 0, 0, 0.64);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    
+
+}
+.btnburnitup button{
+    margin-top: 5%;
+    padding: 10px;
+    background-color: #D50000;
+    color: aliceblue;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+.btnburnitup button:hover{
+    background-color: #fe0202;
+}
+.sec6div{
+    display: flex;
+}
+.sec6paradiv{
+   margin-top: 5%;
+   margin-left: 5%;
+}
+.sec6paradiv h1,p{
+    color: aliceblue;
+}
+
+.sec6paradiv p{
+ margin-top: 2%;
+}
+.sec6img{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.dodgeeshopbtn button{
+    margin-top: 2%;
+   padding: 10px;
+   background-color: #D50000;
+   color: aliceblue;
+   font-family: "Freeman", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   border: none;
+   cursor: pointer;
+}
+.dodgeeshopbtn button:hover{
+    background-color: #fe0202;
+}
+.sec7{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 3% 0;
+}
+.step1,.step2,.step3,.step4 p{
+    margin: 10% 15%;
+    text-align: center;
+}
+.step1para,.step2para,.step3para,.step4para{
+    padding: 0 5%;
+    text-align: center;
+}
+.sec7finguresdivimg img,.sec7monitordivimg img ,.sec7mobiledivimg img,.seccar7imgdiv img{
+    cursor: pointer;
+}
+.sec8{
+    position: relative;
+    margin: 4% 2% 0;
+}
+.sec8div{
+    position: relative;
+    
+}
+.sec8divh1 h1{
+    color: aliceblue;
+}
+.sec8divparaa p{
+    margin-top: 3%;
+    font-weight: 400;
+}
+.sec8paradiv{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    backdrop-filter: blur(8px) saturate(70%);
+    -webkit-backdrop-filter: blur(8px) saturate(70%);
+    background-color: rgba(0, 0, 0, 0.64);
+    border: 0px solid rgba(209, 213, 219, 0.3);
+    width: 30%;
+    padding: 3%;
+}
+.sec8divbtn button{
+    margin-top: 5%;
+    padding: 10px;
+    background-color: #D50000;
+    color: aliceblue;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+.sec8divbtn button:hover{
+    background-color: #fe0202;
+}
+.sec9{
+    position: relative;
+    margin: 5% 2% 0;
+   
+}
+.inputbox button{
+    background-color: #fe0202;
+}
+.sec9 h1{
+    color: aliceblue;
+}
+.sec9para{
+    margin-top: 5%;
+}
+.sec9paraa{
+    position: absolute;
+    top: 25%;
+    width: 35%;
+    padding: 20px;
+    backdrop-filter: blur(8px) saturate(70%);
+    -webkit-backdrop-filter: blur(8px) saturate(70%);
+    background-color: rgba(0, 0, 0, 0.64);
+    border: 0px solid rgba(209, 213, 219, 0.3);
+    right: 30px;
+}
+.btnsec9 button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D50000;
+    color: aliceblue;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+.inputbox{
+    position: relative;
+    width: 30%;   
+}
+.inputsearch{
+    position: absolute;
+    font-size: 27px;
+    z-index: 1;
+    
+}
+.input{
+    padding: 7px; 
+    border: none;
+    position: relative;
+    padding-left: 6%;
+    width: 60%;
+    border: none;
+}
+input[type=text]:focus{
+    border: none;
+}
+.inputbox button{
+    position: absolute;
+    padding: 1.9%;
+    margin-bottom: 5%;
+    background-color: #D50000;
+   color: aliceblue;
+   font-family: "Freeman", sans-serif;
+   font-weight: 400;
+   border: none;
+   cursor: pointer;
+}
+.wholesec10div{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec10 a{
+    font-size: 18px;
+}
+.sec10{
+    margin-top: 2%;
+    background-color: #212121;
+    padding: 1% 6%;
+    position: relative;
+}
+.footerdiv1  a p{
+   margin-top: 10px;
+}
+.servicemore{
+    margin-top: 15%;
+}
+.vehicle{
+    font-weight: bold;
+}
+.powerbrokersdiv{
+    margin-top: 15%;
+}
+.powerbrokersdiv a{
+    margin-top: 10%;
+}
+.anchorpowerbreaker{
+    margin-top: 2%;
+}
+.anchorpowerbreaker a{
+    font-weight: lighter;
+}
+.vehicleanchor{
+    margin-top: 2%;
+}
+.anchorpowerbreaker{
+    font-size: 13px;
+}
+.servicemoreanchor{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.vehicleanchor{
+    font-size: 13px;
+}
+.footersec1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.researchdiv {
+ margin-top: 10%;
+}
+.researchdiv a p{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.locatefooterdiv{
+    margin-top: 25%;
+}
+.locatesubdiv a p{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.dodgeenthusiasts a>p{
+ font-size: 13px;
+ margin-top: 5%;
+}
+.costdiv a p{
+    font-size: 12px;
+    margin-top: 5%;
+}
+.costfooterdiv{
+    margin-top: 10%;
+}
+.ownersfooterdiv{
+    margin-top: 5%;
+}
+.ownersdiv a p{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.myaccountdiv a p{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.privacycenter{
+    margin-top: 20%;
+}
+.privacypolicydiv a p{
+    font-size: 13px;
+    margin-top: 5%;
+}
+.copyrightdiv a p{
+    margin-top: 5%;
+    font-size: 13px;
+}
+.legal{
+    margin-top: 20%;
+}
+.uconnect{
+    margin-top: 20%;
+    display: flex;
+    cursor: pointer;
+}
+.sirusxm{
+    margin-top: 20%;
+    display: flex;
+    cursor: pointer;
+}
+.sportcar{
+    margin-top: 20%;
+    display: flex;
+    cursor: pointer;
+}
+.wholefooter5{
+    margin-top: 20%;
+}
+.followus{
+    margin-top: 25%;
+}
+.followus p{
+    font-weight: bold;
+}
+.instagram p {
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+.dodgegargeimg{
+    margin-top: 15%;
+}
+.xtwitter p{
+    font-size: 25px;
+    cursor: pointer;
+}
+.facebook p{
+    font-size: 25px;
+    cursor: pointer;
+}
+.youtube p{
+    font-size: 25px;
+    cursor: pointer;
+}
+.footerlogos{
+    margin-top: 10%;
+    display: flex;
+    gap: 20px;
+}
+.footersec1{
+    justify-content: space-between;
+    margin: 5% 5%;
+}
+.servicemorepara{
+    font-weight: bold;
+}
+.PowerBrokersDealerspara{
+    font-weight: bold;
+}
+.researchpara{
+    font-weight: bold;
+}
+.locatepara,.dodgeenthusiastspara,.costpara,.ownerspara,.myaccountpara,.privacycenterpara,.legalpara,.supportpara{
+    font-weight: bold;
+}
